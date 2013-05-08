@@ -1,4 +1,4 @@
-# Kappa\Tester
+# Kappa\Tester [![Build Status](https://travis-ci.org/Kappa-org/Tester.png?branch=master)](https://travis-ci.org/Kappa-org/Tester)
 
 Test case based on Nette Tester
 
