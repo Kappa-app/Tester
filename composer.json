@@ -1,9 +1,9 @@
 {
 	"name": "kappa/tester",
 	"type": "library",
-	"description": "",
-	"keywords": [""],
-	"homepage": "",
+	"description": "The test base based on Nette Tester",
+	"keywords": ["nette", "tester", "kappa", "unit", "test"],
+	"homepage": "https://github.com/Kappa-org/Tester",
 	"license": "",
 
 	"authors": [
@@ -15,7 +15,7 @@
 
 	"support": {
 		"email": "zarubaondra@gmail.com",
-		"issues": ""
+		"issues": "https://github.com/Kappa-org/Tester/issues"
 	},
 
 	"require": {
