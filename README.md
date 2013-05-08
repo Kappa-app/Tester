@@ -1,5 +1,5 @@
 # Kappa\Tester
----
+
 Test case based on Nette Tester
 
 ## Requirements:
