@@ -14,7 +14,7 @@ namespace Kappa\Tester;
  * Class TestCase
  * @package Kappa\Tester
  */
-class TestCase extends \Tester\TestCase
+abstract class TestCase extends \Tester\TestCase
 {
 	/**
 	 * @return Reflections
