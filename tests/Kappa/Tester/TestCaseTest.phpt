@@ -1,11 +1,13 @@
 <?php
 /**
- * TestCaseTest.phpt
+ * This file is part of the Kappa\Tester package.
  *
- * @author Ondřej Záruba <zarubaondra@gmail.com>
- * @date 7.5.13
+ * (c) Ondřej Záruba <zarubaondra@gmail.com>
  *
- * @package Kappa\Tester
+ * For the full copyright and license information, please view the license.md
+ * file that was distributed with this source code.
+ *
+ * @testCase
  */
  
 namespace Kappa\Tests\Tester\TestCase;
