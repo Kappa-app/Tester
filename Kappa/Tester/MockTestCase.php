@@ -9,6 +9,7 @@
  */
 
 namespace Kappa\Tester;
+
 use Mockista\Registry;
 
 /**
@@ -22,6 +23,9 @@ abstract class MockTestCase extends TestCase
 
 	protected function setUp()
 	{
+		if(!class_exists('\Mockista\Registry')) {
+			throw new InvalidStateException("Package janmarek/mockista has not been found!");
+		}
 		$this->mockista = new Registry();
 	}
 
