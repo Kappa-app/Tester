@@ -1,7 +1,4 @@
-/.idea
-/vendor
-/*/*/coverage.dat
-/tests/test.log
-*.actual
-*.expected
+.idea
+vendor
 composer.lock
+config.json
