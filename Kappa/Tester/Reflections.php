@@ -12,7 +12,6 @@ namespace Kappa\Tester;
 
 /**
  * Class Reflections
- *
  * @package Kappa\Tester
  */
 class Reflections

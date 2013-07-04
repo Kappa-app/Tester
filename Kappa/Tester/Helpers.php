@@ -12,7 +12,6 @@ namespace Kappa\Tester;
 
 /**
  * Class Helpers
- *
  * @package Kappa\Tester
  */
 class Helpers

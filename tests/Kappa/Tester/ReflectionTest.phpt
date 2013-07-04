@@ -18,6 +18,10 @@ use Tester\Assert;
 
 require_once __DIR__ . '/../bootstrap.php';
 
+/**
+ * Class ReflectionTest
+ * @package Kappa\Tests\Tester\Reflections
+ */
 class ReflectionTest extends TestCase
 {
 	/** @var array  */

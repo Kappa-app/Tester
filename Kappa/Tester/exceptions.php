@@ -12,7 +12,6 @@ namespace Kappa\Tester;
 
 /**
  * Class InvalidArgumentException
- *
  * @package Kappa\Tester
  */
 class InvalidArgumentException extends \LogicException

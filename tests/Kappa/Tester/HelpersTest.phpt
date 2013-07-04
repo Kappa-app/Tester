@@ -18,6 +18,10 @@ use Tester\Assert;
 
 require_once __DIR__ . '/../bootstrap.php';
 
+/**
+ * Class HelpersTest
+ * @package Kappa\Tests\Tester\Helpers
+ */
 class HelpersTest extends TestCase
 {
 	private $exceptions = array(
