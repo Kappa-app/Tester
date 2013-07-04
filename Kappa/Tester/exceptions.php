@@ -18,3 +18,12 @@ class InvalidArgumentException extends \LogicException
 {
 
 }
+
+/**
+ * Class InvalidStateException
+ * @package Kappa\Tester
+ */
+class InvalidStateException extends \LogicException
+{
+
+}
