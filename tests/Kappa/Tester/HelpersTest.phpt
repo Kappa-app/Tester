@@ -9,7 +9,7 @@
  *
  * @testCase
  */
- 
+
 namespace Kappa\Tests\Tester\Helpers;
 
 use Kappa\Tester\TestCase;
@@ -28,13 +28,14 @@ class HelpersTest extends TestCase
 		'inv' => '\Kappa\Tester\InvalidArgumentException',
 	);
 
-        public function testRepairPathSeparators()
-        {
-	        $path = "D:" . DIRECTORY_SEPARATOR . "some" . DIRECTORY_SEPARATOR . "path";
-        	Assert::same($path, Helpers::repairPathSeparators("D:/some/path"));
-	        Assert::throws(function () {
-		        Helpers::repairPathSeparators(array('some'));
-	        }, $this->exceptions['inv']);
-        }
+	public function testRepairPathSeparators()
+	{
+		$path = "D:" . DIRECTORY_SEPARATOR . "some" . DIRECTORY_SEPARATOR . "path";
+		Assert::same($path, Helpers::repairPathSeparators("D:/some/path"));
+		Assert::throws(function () {
+			Helpers::repairPathSeparators(array('some'));
+		}, $this->exceptions['inv']);
+	}
 }
+
 \run(new HelpersTest());

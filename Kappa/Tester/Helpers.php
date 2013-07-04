@@ -26,6 +26,7 @@ class Helpers
 		if (!is_string($path))
 			throw new InvalidArgumentException(__METHOD__ . " Argument must to be string, " . gettype($path) . " given");
 		$patterns = array('\\', '/');
+
 		return (string)str_replace($patterns, DIRECTORY_SEPARATOR, $path);
 	}
 }

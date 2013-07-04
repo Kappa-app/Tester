@@ -9,7 +9,7 @@
  *
  * @testCase
  */
- 
+
 namespace Kappa\Tests\Tester\TestCase;
 
 use Kappa\Tester\Reflections;
@@ -29,4 +29,5 @@ class TestCaseTest extends TestCase
 		Assert::true($this->getReflection() instanceof Reflections);
 	}
 }
+
 \run(new TestCaseTest());

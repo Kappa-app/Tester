@@ -34,6 +34,7 @@ class Reflections
 		$class = new \ReflectionClass($obj);
 		$method = $class->getMethod($method);
 		$method->setAccessible(true);
+
 		return $method->invokeArgs($obj, $arguments);
 	}
 
@@ -59,6 +60,7 @@ class Reflections
 		$attribute->setAccessible(true);
 		$value = $attribute->getValue($obj);
 		$attribute->setAccessible(false);
+
 		return $value;
 	}
 }
