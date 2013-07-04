@@ -20,7 +20,8 @@
 
 	"require": {
 		"php": ">= 5.3.0",
-		"nette/tester": "dev-master"
+		"nette/tester": "dev-master",
+		"janmarek/mockista": "@dev"
 	},
 
 	"autoload": {
