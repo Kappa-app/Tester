@@ -1,7 +1,7 @@
 {
 	"name": "kappa/tester",
 	"type": "library",
-	"description": "The test base based on Nette Tester",
+	"description": "Test case based on Nette Tester",
 	"keywords": ["nette", "tester", "kappa", "unit", "test"],
 	"homepage": "https://github.com/Kappa-org/Tester",
 	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
