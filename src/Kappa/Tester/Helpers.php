@@ -16,5 +16,17 @@ namespace Kappa\Tester;
  */
 class Helpers
 {
+	/**
+	 * @param string|null $prefix
+	 * @param string|null $ext
+	 * @return string
+	 */
+	public static function getRandName($prefix = null, $ext = null)
+	{
+		$string = $prefix;
+		$string .= rand(1000000, 9999999) . time();
+		$string .= $ext;
 
+		return $string;
+	}
 }
