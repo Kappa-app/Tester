@@ -24,10 +24,10 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Kappa": "./"
+			"Kappa": "src/"
 		},
 		"classmap": [
-			"Kappa/Tester/exceptions.php"
+			"src/Kappa/Tester/exceptions.php"
 		]
 	}
 }
