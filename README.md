@@ -2,6 +2,11 @@
 
 The test base based on Nette Tester
 
+## Version info
+
+* Version 1.0.* is for Nette\Tester <= 0.9.*
+* Version 1.1.* is for Nette\Tester <= 1.0.*
+
 ## Requirements:
 
 * PHP 5.3.*
@@ -14,4 +19,3 @@ The best way to install Kappa\Tester is using Composer:
 ```bash
 $ composer require kappa/tester:@dev
 ```
- 
