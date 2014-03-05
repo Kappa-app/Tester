@@ -4,7 +4,7 @@
 	"description": "Test case based on Nette Tester",
 	"keywords": ["nette", "tester", "kappa", "unit", "test"],
 	"homepage": "https://github.com/Kappa-app/Tester",
-	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"license": ["BSD-3-Clause"],
 	"authors": [
 		{
 			"name": "Ondřej Záruba",
