@@ -20,7 +20,7 @@
 		"nette/tester": "1.0.*"
 	},
 	"suggest": {
-		"janmarek/mockista": "Library for mock if use MoctTestCase"
+		"janmarek/mockista": "Library for mock if use MockTestCase"
 	},
 	"autoload": {
 		"psr-0": {
