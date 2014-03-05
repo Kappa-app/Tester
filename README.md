@@ -12,6 +12,6 @@ The test base based on Nette Tester
 The best way to install Kappa\Tester is using Composer:
 
 ```bash
-$ composer require Kappa\Tester:@dev
+$ composer require kappa/tester:@dev
 ```
  
